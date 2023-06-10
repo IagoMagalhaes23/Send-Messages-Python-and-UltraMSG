@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> Sistema de envio de mensagens </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <div id="pesquisa">
+            <h1> 
+                Sua mensagem foi enviada com sucesso para {{telefone}}
+            </h1>
+            <a href="/"> <button> Nova mensagem </button> </a>
+        </div>
+    </body>
+</html>
