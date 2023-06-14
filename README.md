@@ -1,4 +1,4 @@
-# WhatsApp Bot
+# Envio de mensagens para WhatsApp com Python e UltraMSG
 
 ## Resumo
 Aplicação para envir mensagens para o WhatsApp com o uso da API UltraMSG.
